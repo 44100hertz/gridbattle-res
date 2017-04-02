@@ -1,0 +1,28 @@
+-- All ingame chips and their "headers"
+
+return {
+   {"Triangle",
+    desc={"Shoot out",
+          "some triangle."},
+    elem = 1, damage = 80,
+    class = "bullet", variant = "triangle",
+   },
+   {"Boots",
+    desc={"Fire off a",
+          "pair of boots."},
+    elem = 2, damage = 40,
+    class = "multi-bullet", variant = "boots",
+   },
+   {"WhlCrate",
+    desc={"Damage makes",
+          "it roll."},
+    elem = 2, damage = 40,
+    class = "crate", variant = "wheeled",
+   },
+   {"PoisDrop",
+    desc={"Poison 3",
+          "spaces ahead."},
+    elem = 3,
+    class = "throwable", variant = "poison",
+   },
+}
